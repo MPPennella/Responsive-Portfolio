@@ -247,3 +247,53 @@ input, textarea {
 
     font-family: inherit;
 }
+
+/*****************
+ * Media queries *
+ *****************/
+
+/* M screens */
+@media screen and (max-width: 980px) {
+    .navBar {
+        width: 980px;
+    }
+    .mainContent {
+        width: calc(750px);
+    }
+}
+
+/* S screens */
+@media screen and (max-width: 768px) {
+    .navBar {
+        width: 688px;
+    }
+    .mainContent {
+        width: calc(688px - 2 * 25px);
+    }
+
+}
+
+/* XS screens */
+@media screen and (max-width: 640px) {
+    .navBar {
+        width: 100%;
+    }
+    .nameplate {
+        width: 100%;
+        padding: 25px 0;
+        text-align: center;
+    }
+    .navButtons {
+        width:100%;
+        padding: 0;
+        text-align: center;
+    }
+    .navLink {
+        padding: 15px 5px 10px;
+    }
+
+    .mainContent {
+        width: calc(540px - 2 * 25px);
+    }
+
+}
