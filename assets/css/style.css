@@ -1,0 +1,249 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    margin: 0;
+    
+    background: #fff2e6;
+    background-image: url("../images/oriental.png");
+
+    color: #777777;
+}
+
+header {
+    flex-shrink: 0;
+
+    width: 100%;
+    overflow: hidden;
+
+    margin: 0;
+    margin-bottom: 30px;
+
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #cccccc;
+
+    background: #ffffff;
+
+}
+
+
+h1 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+p, a, form, ul {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+p {
+    line-height: 200%;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+/******************************
+Classes used in navbar header
+******************************/
+
+.navBar {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.nameplate {
+    float: left;
+    margin: 0;
+    padding: 25px;
+    background: #4aaaa5;
+
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.navButtons {
+    overflow: hidden;
+    float: right;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+.navLink {
+    display: inline-block;
+    height: 20px;
+    padding: 20px 5px;
+    text-align: center;  
+}
+
+.navLink:link {
+    text-decoration: none;
+}
+.navLink:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    display: inline-block;
+    height: 14px;
+    width: 0px;
+
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+
+}
+
+/*********************************
+Classes used in main page bodies 
+*********************************/
+
+.mainContent {
+    flex: 1 0 auto;
+    overflow: hidden;
+
+    margin: 0 auto;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+
+    padding: 25px;
+
+    /* Padding+Width=960px */
+    width: calc(960px - 2 * 25px);
+
+    background: #ffffff;
+}
+
+/* div-based horizontal rule effect */
+.hRule {
+    border-top-style: solid;
+    border-top-width: 2px;
+
+    margin: 20px 0;
+
+    color: #dddddd;
+}
+
+/**************************
+ * Classes used in footer *
+ **************************/
+
+.copyrightInfo {
+    flex-shrink: 0;
+
+    width: 100%;
+
+    margin: 0;
+    margin-top: 80px;
+
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-top-width: 5px;
+
+    padding: 25px 0 10px;
+
+    background: #666666;
+
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+
+/***************************************
+ * Classes used in index.html (About Me)
+ ***************************************/
+.headshot {
+    float: left;
+    margin-right: 20px;
+}
+
+/*********************************
+ * Classes used in portfolio.html
+ *********************************/
+
+ .portImgContainer {
+    display: inline-block;
+    position: relative;
+
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+/* Ended up not styling this class */
+/* .portImg {
+
+} */
+
+.imgLabel {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+
+    padding: 10px;
+    width: calc(100% - 2 * 10px);
+
+    background: #4aaaa5;
+
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/******************************
+ * Classes used in contact.html
+ ******************************/
+
+.nameField {
+    width: 100%;
+}
+
+.emailField {
+    width: 100%;
+}
+
+.messageField {
+    width: 100%;
+    height: 150px;
+
+    resize: vertical;
+}
+
+.submitButton {
+    border-style: none;
+    padding: 10px 25px;
+
+    background: #4aaaa5;
+
+    color: #ffffff;
+}
+
+.submitButton:hover {
+    background: #66ddcc;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    margin: 10px 0 20px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    padding: 5px 10px;
+
+    font-family: inherit;
+}
