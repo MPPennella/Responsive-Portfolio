@@ -304,4 +304,7 @@ input, textarea {
         width: calc(540px - 2 * 25px);
     }
 
+    .portImgContainer {
+        width: 100%;
+    }
 }
