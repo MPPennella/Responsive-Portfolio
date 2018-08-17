@@ -185,10 +185,9 @@ Classes used in main page bodies
     margin-bottom: 25px;
 }
 
-/* Ended up not styling this class */
-/* .portImg {
-
-} */
+.portImg {
+    width: 100%;
+}
 
 .imgLabel {
     position: absolute;
@@ -261,6 +260,10 @@ input, textarea {
     .mainContent {
         width: calc(700px - 2* 25px);
         margin-left: 50px;
+    }
+    .portImgContainer {
+        width: 290px;
+        
     }
 }
 
