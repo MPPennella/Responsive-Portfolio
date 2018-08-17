@@ -255,10 +255,12 @@ input, textarea {
 /* M screens */
 @media screen and (max-width: 980px) {
     .navBar {
-        width: 980px;
+        width: calc(100% - 2*50px);
+        margin: 0 50px;
     }
     .mainContent {
-        width: calc(750px);
+        width: calc(700px - 2* 25px);
+        margin-left: 50px;
     }
 }
 
@@ -266,9 +268,11 @@ input, textarea {
 @media screen and (max-width: 768px) {
     .navBar {
         width: 688px;
+        margin: 0 auto;
     }
     .mainContent {
         width: calc(688px - 2 * 25px);
+        margin-left: auto;
     }
 
 }
@@ -277,6 +281,7 @@ input, textarea {
 @media screen and (max-width: 640px) {
     .navBar {
         width: 100%;
+        margin: 0;
     }
     .nameplate {
         width: 100%;
